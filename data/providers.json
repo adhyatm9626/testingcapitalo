@@ -1,0 +1,45 @@
+{
+  "checked_on": "2026-11-11",
+  "providers": [
+    {
+      "id": "mfapi",
+      "name": "MFapi.in",
+      "data": [
+        "mutual fund NAV"
+      ],
+      "terms_url": "https://www.mfapi.in/docs/",
+      "enabled": true,
+      "env_gate": "MFAPI_DISABLED=true (emergency only)"
+    },
+    {
+      "id": "gemini",
+      "name": "Google Gemini",
+      "data": [
+        "AI helper"
+      ],
+      "terms_url": "https://ai.google.dev/gemini-api/terms",
+      "enabled": true
+    },
+    {
+      "id": "manual",
+      "name": "Capitalo team (manual updates)",
+      "data": [
+        "published catalogues"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "nse-index-constituents",
+      "name": "NSE Indices Nifty 100 list (names only)",
+      "data": [
+        "Nifty 100 constituents"
+      ],
+      "terms_url": "https://www.niftyindices.com/disclaimer",
+      "enabled": true,
+      "verdict": "confirmed_by_team",
+      "approved_by": "Capitalo team",
+      "approved_on": "2026-11-11",
+      "basis": "Team confirmed that use of the NSE Nifty 100 constituents list is permitted"
+    }
+  ]
+}

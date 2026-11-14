@@ -1,0 +1,70 @@
+{
+  "ok": true,
+  "kind": "search",
+  "total": 15,
+  "limit": 15,
+  "offset": 0,
+  "source": "MFapi.in",
+  "data": [
+    {
+      "schemeCode": 100416,
+      "schemeName": "Tata Long Term Debt Fund - Regular Plan - Quarterly Dividend"
+    },
+    {
+      "schemeCode": 100417,
+      "schemeName": "Tata Income Fund-Regular Plan - Half Yearly Payout of IDCW Option"
+    },
+    {
+      "schemeCode": 100418,
+      "schemeName": "Tata Income Fund -Regular Plan - Growth Option"
+    },
+    {
+      "schemeCode": 101000,
+      "schemeName": "Tata Life Sciences & Technology Fund - Growth"
+    },
+    {
+      "schemeCode": 101186,
+      "schemeName": "Tata Income Fund- Regular Plan - Periodic Payout of IDCW Option"
+    },
+    {
+      "schemeCode": 101224,
+      "schemeName": "Tata Dynamic Bond Fund- Regular Plan - Payout of IDCW Option"
+    },
+    {
+      "schemeCode": 101419,
+      "schemeName": "Tata Long Term Debt Fund - Regular Plan  -Bonus"
+    },
+    {
+      "schemeCode": 101471,
+      "schemeName": "Tata Gilt Retirement Plan (28/2/2008) Growth"
+    },
+    {
+      "schemeCode": 101489,
+      "schemeName": "Tata Young Citizen Fund [Upto 3 years] Regular Plan"
+    },
+    {
+      "schemeCode": 101490,
+      "schemeName": "Tata Young Citizen Fund [>3 years upto 7 years] Regular Plan"
+    },
+    {
+      "schemeCode": 101605,
+      "schemeName": "Tata Medium Term Fund- Regular Plan - Payout of IDCW option"
+    },
+    {
+      "schemeCode": 101606,
+      "schemeName": "Tata Medium Term Fund B - Income / Bonus Option"
+    },
+    {
+      "schemeCode": 101703,
+      "schemeName": "Tata Medium Term Fund -Regular Plan - Growth Option"
+    },
+    {
+      "schemeCode": 101704,
+      "schemeName": "Tata Medium Term Fund B - Growth Option"
+    },
+    {
+      "schemeCode": 101745,
+      "schemeName": "Tata Index Fund - Nifty B"
+    }
+  ]
+}

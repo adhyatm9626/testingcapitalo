@@ -1,0 +1,4 @@
+import test from 'node:test';import assert from 'node:assert/strict';
+import {nearestFDTenure,fdRate,fdProjection,fdStale} from '../assets/js/fd-logic.js';
+test('FD calculations use only listed tenures and select nearest',()=>{assert.equal(nearestFDTenure(2),1);assert.equal(nearestFDTenure(4),3);assert.equal(nearestFDTenure(10),5);const result=fdRate({rates:{y3:7},senior_extra_pp:{min:.5,max:1}},4,'senior');assert.equal(result.rate,7.5);assert.equal(result.nearest,true);assert.equal(result.rangeApplied,true)});
+test('FD senior toggle is unavailable without an extra and stale threshold is 45 days',()=>{assert.equal(fdRate({rates:{y1:6}},1,'senior').seniorAvailable,false);assert.equal(fdStale('2026-10-01',new Date('2026-11-20T12:00:00+05:30').getTime()),true);assert.ok(Math.abs(fdProjection(1000,7,1)-1000*Math.pow(1+.07/4,4))<1e-9)});

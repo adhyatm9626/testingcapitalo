@@ -1,0 +1,170 @@
+[
+  {
+    "id": "manipal-housing-finance-syndicate",
+    "name": "Manipal Housing Finance Syndicate",
+    "group": "corporate",
+    "type": "corporate",
+    "rates": {
+      "highest": 8,
+      "y1": 8,
+      "y3": 8,
+      "y5": 7.5
+    },
+    "senior_extra_pp": {
+      "min": 0.5,
+      "max": 0.5
+    },
+    "tenure_note": "1 year; 2 years; 3 years",
+    "tax_saving_5y": null,
+    "official_website": null,
+    "verified": false,
+    "as_of": "2026-10-28"
+  },
+  {
+    "id": "muthoot-capital-services",
+    "name": "Muthoot Capital Services",
+    "group": "corporate",
+    "type": "corporate",
+    "rates": {
+      "highest": 8.95,
+      "y1": 7.9,
+      "y3": 8.95,
+      "y5": 8.5
+    },
+    "senior_extra_pp": {
+      "min": 0.25,
+      "max": 0.25
+    },
+    "tenure_note": "36 months",
+    "tax_saving_5y": null,
+    "official_website": null,
+    "verified": false,
+    "as_of": "2026-10-28"
+  },
+  {
+    "id": "mahindra-finance",
+    "name": "Mahindra Finance",
+    "group": "corporate",
+    "type": "corporate",
+    "rates": {
+      "highest": 7.45,
+      "y1": 6.6,
+      "y3": 7.4,
+      "y5": 7.45
+    },
+    "senior_extra_pp": {
+      "min": 0.2,
+      "max": 0.35
+    },
+    "tenure_note": "48 months to 60 months",
+    "tax_saving_5y": null,
+    "official_website": null,
+    "verified": false,
+    "as_of": "2026-10-28"
+  },
+  {
+    "id": "shriram-finance",
+    "name": "Shriram Finance",
+    "group": "corporate",
+    "type": "corporate",
+    "rates": {
+      "highest": 7.85,
+      "y1": 7,
+      "y3": 7.85,
+      "y5": 7.85
+    },
+    "senior_extra_pp": {
+      "min": 0.5,
+      "max": 0.5
+    },
+    "tenure_note": "3 years to 5 years",
+    "tax_saving_5y": null,
+    "official_website": null,
+    "verified": false,
+    "as_of": "2026-10-28"
+  },
+  {
+    "id": "icici-home-finance",
+    "name": "ICICI Home Finance",
+    "group": "corporate",
+    "type": "corporate",
+    "rates": {
+      "highest": 7.35,
+      "y1": 7.05,
+      "y3": 7.2,
+      "y5": 7.3
+    },
+    "senior_extra_pp": {
+      "min": 0.35,
+      "max": 0.35
+    },
+    "tenure_note": "27 months",
+    "tax_saving_5y": null,
+    "official_website": null,
+    "verified": false,
+    "as_of": "2026-10-28"
+  },
+  {
+    "id": "sundaram-home-finance",
+    "name": "Sundaram Home Finance",
+    "group": "corporate",
+    "type": "corporate",
+    "rates": {
+      "highest": 7.65,
+      "y1": 7,
+      "y3": 7.5,
+      "y5": 7.65
+    },
+    "senior_extra_pp": {
+      "min": 0.35,
+      "max": 0.5
+    },
+    "tenure_note": "4 years; 5 years",
+    "tax_saving_5y": null,
+    "official_website": null,
+    "verified": false,
+    "as_of": "2026-10-28"
+  },
+  {
+    "id": "pnb-housing-finance",
+    "name": "PNB Housing Finance",
+    "group": "corporate",
+    "type": "corporate",
+    "rates": {
+      "highest": 7.4,
+      "y1": 6.8,
+      "y3": 7.25,
+      "y5": 7.4
+    },
+    "senior_extra_pp": {
+      "min": 0.25,
+      "max": 0.25
+    },
+    "tenure_note": "60 months",
+    "tax_saving_5y": null,
+    "official_website": null,
+    "verified": false,
+    "as_of": "2026-10-28"
+  },
+  {
+    "id": "lic-housing-finance",
+    "name": "LIC Housing Finance",
+    "group": "corporate",
+    "type": "corporate",
+    "rates": {
+      "highest": 7.35,
+      "y1": 6.7,
+      "y3": 7.2,
+      "y5": 7.35
+    },
+    "senior_extra_pp": {
+      "min": 0.25,
+      "max": 0.25
+    },
+    "tenure_note": "5 years",
+    "tax_saving_5y": null,
+    "official_website": null,
+    "verified": false,
+    "as_of": "2026-10-28"
+  }
+]

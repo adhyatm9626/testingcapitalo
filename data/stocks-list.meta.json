@@ -1,0 +1,8 @@
+{
+  "file": "ind_nifty100list.csv",
+  "source_path": "C:/Users/ramla/Downloads/ind_nifty100list.csv",
+  "download_date": "2026-11-02",
+  "as_of": "2026-11-02",
+  "copied_unedited": true,
+  "note": "The source file timestamp is used as the download date; the file itself is copied byte-for-byte. Constituents are a static learning/search list, not prices or a live index feed."
+}

@@ -1,0 +1,24 @@
+{
+  "as_of": "2026-10-28",
+  "valid_until": "2026-12",
+  "note": "Sheet says rates are effective till December 2026. Government small-savings rates are notified periodically; verify before use.",
+  "tenures": [
+    {
+      "years": 1,
+      "rate": 6.9
+    },
+    {
+      "years": 2,
+      "rate": 7
+    },
+    {
+      "years": 3,
+      "rate": 7.1
+    },
+    {
+      "years": 5,
+      "rate": 7.5
+    }
+  ],
+  "verified": false
+}

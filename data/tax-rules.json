@@ -1,0 +1,42 @@
+{
+  "financial_year": null,
+  "rules": [
+    {
+      "id": "bank-interest-slab",
+      "value": null,
+      "source_url": "https://www.incometax.gov.in/",
+      "verified_on": null,
+      "verify_before_launch": true
+    },
+    {
+      "id": "equity-stcg",
+      "value": null,
+      "source_url": "https://www.incometax.gov.in/",
+      "verified_on": null,
+      "verify_before_launch": true
+    },
+    {
+      "id": "equity-ltcg",
+      "value": null,
+      "source_url": "https://www.incometax.gov.in/",
+      "verified_on": null,
+      "verify_before_launch": true
+    },
+    {
+      "id": "gold-silver",
+      "value": null,
+      "source_url": "https://www.incometax.gov.in/",
+      "verified_on": null,
+      "verify_before_launch": true
+    },
+    {
+      "id": "deposit-insurance-limit",
+      "value": null,
+      "source_url": "https://www.dicgc.org.in/",
+      "verified_on": null,
+      "verify_before_launch": true
+    }
+  ],
+  "note": "Tax computations are disabled until a tax professional verifies current official rules and the applicable financial year.",
+  "as_of": "2026-10-29"
+}

@@ -1,0 +1,3 @@
+import {getEnv} from './_shared.mjs';
+function originFor(req){const configured=getEnv('SITE_ORIGIN');if(configured){try{const u=new URL(configured);if(['https:','http:'].includes(u.protocol))return u.origin}catch{}}const host=req.headers.get('x-forwarded-host')||req.headers.get('host')||'';if(!/^(?:[a-z0-9-]+\.)+[a-z]{2,}$/i.test(host))return null;return `https://${host}`}
+export default async req=>{const origin=originFor(req);return new Response(origin?`User-agent: *\nAllow: /\nDisallow: /admin\nSitemap: ${origin}/sitemap.xml\n`:'User-agent: *\nAllow: /\n',{status:origin?200:503,headers:{'content-type':'text/plain; charset=utf-8','cache-control':'public, max-age=3600','x-content-type-options':'nosniff'}})}

@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#07060B" media="(prefers-color-scheme: dark)">
+  <meta name="theme-color" content="#FEFEFE" media="(prefers-color-scheme: light)">
+  <meta name="description" content="A free educational investment calculator for Indian users. Explore projections with assumptions you control.">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/img/favicon.png?v=2026-11-14p1">
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/img/apple-touch-icon.png?v=2026-11-14p1">
+  <link rel="preload" href="/assets/fonts/SFProDisplay-Regular.woff2?v=2026-11-14p1" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="/assets/fonts/SFProDisplay-Bold.woff2?v=2026-11-14p1" as="font" type="font/woff2" crossorigin>
+  <script src="/assets/js/early.js?v=2026-11-14p1"></script>
+  <link rel="stylesheet" href="/assets/css/app.css?v=2026-11-14p1">
+  <title data-copy="pageTitle"></title>
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#home" data-aria="homeLabel">
+      <picture><source type="image/webp" srcset="/assets/img/capitalo-wordmark.webp?v=2026-11-14p1"><img class="brandmark" src="/assets/img/capitalo-wordmark.png?v=2026-11-14p1" width="1643" height="448" data-alt="logoAlt" fetchpriority="high"></picture>
+    </a>
+    <div class="header-actions">
+      <label class="sr-only" for="theme">Theme</label>
+      <select id="theme" class="control-select theme-select" aria-label="Theme">
+        <option value="system" data-copy="system"></option><option value="dark" data-copy="dark"></option><option value="light" data-copy="light"></option>
+      </select>
+      <button id="themeCycle" class="icon-button theme-icon-button" type="button" aria-label="Theme: System"><span id="themeIcon" aria-hidden="true">◐</span></button>
+    </div>
+  </header>
+  <div id="islandRoot" aria-live="off"></div>
+
+  <main id="app" tabindex="-1">
+    <section class="home-screen screen" data-screen="home" aria-labelledby="home-title">
+      <div class="hero wrap">
+        <div class="hero-copy">
+          <p class="eyebrow" data-copy="heroEyebrow"></p>
+          <h1 id="home-title"><span data-copy="heroHeadline"></span><br><span data-copy="heroSubhead"></span></h1>
+          <p class="hero-sub" data-copy="heroPromise"></p>
+          <a class="button primary" href="#choose-begin" data-scroll-target="choose-begin"><span data-copy="start"></span><span aria-hidden="true">↓</span></a>
+          <p class="hero-proof" data-copy="heroProof"></p>
+        </div>
+        <div class="hero-art" aria-hidden="true">
+          <div class="hero-tile"><img id="heroLogo" src="/assets/img/capitalo-dark.webp?v=2026-11-14p1" width="1254" height="1254" alt="" fetchpriority="high"></div>
+        </div>
+      </div>
+
+      <section class="how wrap" aria-labelledby="how-title">
+        <div class="section-heading"><p class="eyebrow" data-copy="howEyebrow"></p><h2 id="how-title" data-copy="howTitle"></h2></div>
+        <div class="steps">
+          <article class="step"><span class="step-num">01</span><h3 data-copy="stepOneTitle"></h3><p data-copy="stepOneCopy"></p></article>
+          <article class="step"><span class="step-num">02</span><h3 data-copy="stepTwoTitle"></h3><p data-copy="stepTwoCopy"></p></article>
+          <article class="step"><span class="step-num">03</span><h3 data-copy="stepThreeTitle"></h3><p data-copy="stepThreeCopy"></p></article>
+        </div>
+      </section>
+
+      <section class="amount-section wrap" aria-labelledby="amount-title">
+        <div class="section-heading"><p class="eyebrow" data-copy="amountEyebrow"></p><h2 id="amount-title" data-copy="amountTitle"></h2></div>
+        <div class="amount-card">
+          <small class="investing-sticky" data-copy="investingLabel"></small>
+          <label for="amount" data-copy="amountLabel"></label>
+          <div class="amount-entry"><span aria-hidden="true">₹</span><div class="numeric-control home-amount-control"><button class="stepper-button" type="button" data-step="-1" data-aria="decreaseValue">−</button><input class="control-input amount-input" id="amount" type="text" inputmode="numeric" enterkeyhint="done" value="" data-placeholder="amountPlaceholder" autocomplete="off" aria-describedby="amount-local-note amount-error"><button class="stepper-button" type="button" data-step="1" data-aria="increaseValue">+</button><small id="amount-error" class="field-error" aria-live="polite" hidden></small></div></div>
+          <div class="mode-control" role="group" data-aria="contributionMode"><button class="mode-button is-active" type="button" data-mode="onetime" aria-pressed="true" data-copy="oneTime"></button><button class="mode-button" type="button" data-mode="sip" aria-pressed="false" data-copy="monthlySip"></button><span class="mode-indicator" aria-hidden="true"></span></div>
+          <small id="amount-local-note" data-copy="deviceInputs"></small>
+        </div>
+      </section>
+
+      <section id="choose-begin" class="explore-section wrap" aria-labelledby="explore-title">
+        <div class="section-heading"><p class="eyebrow" data-copy="exploreEyebrow"></p><h2 id="explore-title" tabindex="-1" data-copy="exploreTitle"></h2></div>
+        <div class="tile-grid">
+          <a class="nav-tile" href="#fd"><span class="tile-icon" data-icon="bank"></span><span data-copy="fixedDeposits"></span><span class="tile-arrow" aria-hidden="true">↗</span></a>
+          <a class="nav-tile" href="#mf"><span class="tile-icon" data-icon="fund"></span><span data-copy="mutualFunds"></span><span class="tile-arrow" aria-hidden="true">↗</span></a>
+          <a class="nav-tile" href="#stocks"><span class="tile-icon" data-icon="stock"></span><span data-copy="stocks"></span><span class="tile-arrow" aria-hidden="true">↗</span></a>
+          <a class="nav-tile" href="#gold"><span class="tile-icon" data-icon="gold"></span><span data-copy="goldSilver"></span><span class="tile-arrow" aria-hidden="true">↗</span></a>
+          <a class="nav-tile" href="#bonds"><span class="tile-icon" data-icon="bond"></span><span data-copy="bonds"></span><span class="tile-arrow" aria-hidden="true">↗</span></a>
+          <a class="nav-tile" href="#etf"><span class="tile-icon" data-icon="etf"></span><span data-copy="etfs"></span><span class="tile-arrow" aria-hidden="true">↗</span></a>
+          <a class="nav-tile" href="#planner"><span class="tile-icon" data-icon="pie"></span><span data-copy="allocationPlanner"></span><span class="tile-arrow" aria-hidden="true">↗</span></a>
+          <a class="nav-tile" href="#sip"><span class="tile-icon" data-icon="calculator"></span><span data-copy="sipCalculator"></span><span class="tile-arrow" aria-hidden="true">↗</span></a>
+          <a class="nav-tile" href="#tools"><span class="tile-icon" data-icon="tools"></span><span data-copy="moreTools"></span><span class="tile-arrow" aria-hidden="true">↗</span></a>
+        </div>
+      </section>
+    </section>
+
+    <section id="screen" class="route-screen screen wrap" hidden aria-live="polite">
+      <button id="backButton" class="back-button" type="button"><span aria-hidden="true">←</span><span data-copy="back"></span></button>
+      <p id="screenEyebrow" class="eyebrow" data-copy="exploreEyebrow"></p>
+      <h1 id="screenTitle" tabindex="-1"></h1>
+      <p id="screenIntro" class="screen-intro"></p>
+      <div id="screenContent" class="screen-content"></div>
+    </section>
+  </main>
+
+  <nav class="mobile-nav" data-aria="mainNavigation">
+    <a href="#home" data-tab="home"><span class="nav-icon" data-icon="home"></span><small data-copy="home"></small></a>
+    <a href="#sip" data-tab="sip"><span class="nav-icon" data-icon="calculator"></span><small data-copy="calculators"></small></a>
+    <a href="#compare" data-tab="compare"><span class="nav-icon" data-icon="compare"></span><small data-copy="compare"></small></a>
+    <a href="#ask" data-tab="ask"><span class="nav-icon" data-icon="ask"></span><small data-copy="ask"></small></a>
+  </nav>
+
+  <footer class="footer wrap">
+    <div class="footer-brand-row"><picture><source type="image/webp" srcset="/assets/img/capitalo-wordmark.webp?v=2026-11-14p1"><img src="/assets/img/capitalo-wordmark.png?v=2026-11-14p1" width="1643" height="448" data-alt="logoAlt" loading="lazy"></picture><p data-copy="footerLine"></p></div>
+    <div class="footer-disclaimer"><h2 data-copy="disclaimerLabel"></h2><p data-copy="disclaimer"></p></div>
+    <div class="footer-bottom"><span data-copy="credit"></span><ul id="providerSources" data-aria="activeSources"></ul><button id="printPage" class="button secondary compact" type="button" data-copy="savePdf"></button><span>© <span id="yearNow">2026</span> Capitalo</span></div>
+  </footer>
+
+  <dialog id="welcomeDialog" class="welcome-dialog">
+    <p class="eyebrow" data-copy="welcomeEyebrow"></p><h2 data-copy="welcomeTitle"></h2>
+    <p data-copy="welcomeCopy"></p>
+    <button id="understand" class="button primary" type="button" data-copy="understand"></button>
+  </dialog>
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+  <script type="module" src="/assets/js/app.js?v=2026-11-14p1"></script>
+</body>
+</html>
+
+
+

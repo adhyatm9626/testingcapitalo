@@ -1,0 +1,4 @@
+import {getStore} from '@netlify/blobs';
+export const config={schedule:'35 18 * * *'};
+const istDay=()=>new Intl.DateTimeFormat('en-CA',{timeZone:'Asia/Kolkata',year:'numeric',month:'2-digit',day:'2-digit'}).format(new Date());
+export default async req=>{try{const store=getStore('capitalo-ai-limits'),today=istDay(),{blobs=[]}=await store.list();let deleted=0;for(const blob of blobs){const key=blob.key;if(!key.startsWith('visitor:')&&!key.startsWith('global:')&&!key.startsWith('api:'))continue;const day=key.split(':')[1];if(day<today){await store.delete(key);deleted++}}return new Response(`Expired daily counters removed: ${deleted}`,{status:200,headers:{'content-type':'text/plain; charset=utf-8'}})}catch{return new Response('Counter cleanup failed.',{status:500,headers:{'content-type':'text/plain; charset=utf-8'}})}};

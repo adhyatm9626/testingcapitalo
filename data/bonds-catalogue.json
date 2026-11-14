@@ -1,0 +1,95 @@
+{
+  "as_of": "2026-10-28",
+  "items": [
+    {
+      "name": "Treasury Bills — 91 day",
+      "symbol": "T-BILL 91D",
+      "category": "Government of India short-term security",
+      "value": "Auction-dependent",
+      "unit": "Yield published per auction",
+      "as_of": "2026-10-28",
+      "details": "Short-term government security; maturity yield depends on purchase price and auction terms.",
+      "verified": false
+    },
+    {
+      "name": "Treasury Bills — 182 day",
+      "symbol": "T-BILL 182D",
+      "category": "Government of India short-term security",
+      "value": "Auction-dependent",
+      "unit": "Yield published per auction",
+      "as_of": "2026-10-28",
+      "details": "Short-term government security; yield changes with auction and market price.",
+      "verified": false
+    },
+    {
+      "name": "Treasury Bills — 364 day",
+      "symbol": "T-BILL 364D",
+      "category": "Government of India short-term security",
+      "value": "Auction-dependent",
+      "unit": "Yield published per auction",
+      "as_of": "2026-10-28",
+      "details": "Short-term government security; not a bank deposit.",
+      "verified": false
+    },
+    {
+      "name": "Government dated securities (G-Secs)",
+      "symbol": "G-SEC",
+      "category": "Central Government bonds",
+      "value": "ISIN / coupon specific",
+      "unit": "Market price and yield-to-maturity vary",
+      "as_of": "2026-10-28",
+      "details": "Coupon, maturity, price and yield depend on the exact security/ISIN.",
+      "verified": false
+    },
+    {
+      "name": "State Development Loans",
+      "symbol": "SDL",
+      "category": "State government securities",
+      "value": "Auction / ISIN specific",
+      "unit": "Yield varies by state and maturity",
+      "as_of": "2026-10-28",
+      "details": "State-government borrowing instruments; prices and yields vary.",
+      "verified": false
+    },
+    {
+      "name": "Floating Rate Savings Bonds",
+      "symbol": "FRSB",
+      "category": "Government savings bond",
+      "value": "Rate as notified",
+      "unit": "Check current official notification",
+      "as_of": "2026-10-28",
+      "details": "Terms and interest rate are governed by the current official issue terms.",
+      "verified": false
+    },
+    {
+      "name": "Corporate bonds — listed",
+      "symbol": "Issuer / ISIN specific",
+      "category": "Company debt securities",
+      "value": "Issue-specific",
+      "unit": "Coupon, credit rating and yield differ by issue",
+      "as_of": "2026-10-28",
+      "details": "Credit risk, liquidity and call/put conditions vary; do not compare only by coupon.",
+      "verified": false
+    },
+    {
+      "name": "Tax-free bonds (legacy listed issues)",
+      "symbol": "Issuer / ISIN specific",
+      "category": "Legacy listed bonds",
+      "value": "Market-price dependent",
+      "unit": "Yield depends on price and remaining maturity",
+      "as_of": "2026-10-28",
+      "details": "Legacy issues may trade in the secondary market; tax treatment depends on applicable law and investor circumstances.",
+      "verified": false
+    },
+    {
+      "name": "SDL / G-Sec retail access",
+      "symbol": "RBI RETAIL DIRECT",
+      "category": "Government securities access portal",
+      "value": "Live rates not embedded",
+      "unit": "Use official auction and secondary-market data",
+      "as_of": "2026-10-28",
+      "details": "Retail Direct provides official access and market information; this page does not execute transactions.",
+      "verified": false
+    }
+  ]
+}

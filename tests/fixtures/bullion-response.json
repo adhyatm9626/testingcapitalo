@@ -1,0 +1,133 @@
+{
+  "ok": true,
+  "version": 0,
+  "updatedAt": "2026-10-28",
+  "updatedBy": "Bundled fallback",
+  "data": {
+    "as_of": "2026-10-28",
+    "source_name": "IBJA benchmark (reference snapshot)",
+    "source_url": "https://www.ibjarates.com/",
+    "verified": false,
+    "gold": [
+      {
+        "name": "Gold 999 (24K benchmark)",
+        "symbol": "IBJA 999",
+        "category": "Physical gold · 999 purity",
+        "value": "₹142,707",
+        "unit": "per 10 grams · PM benchmark",
+        "as_of": "2026-10-28",
+        "details": "IBJA PM benchmark; excludes GST and making charges.",
+        "verified": false,
+        "source_name": "IBJA benchmark"
+      },
+      {
+        "name": "Gold 995",
+        "symbol": "IBJA 995",
+        "category": "Physical gold · 995 purity",
+        "value": "₹142,136",
+        "unit": "per 10 grams · PM benchmark",
+        "as_of": "2026-10-28",
+        "details": "IBJA PM benchmark; excludes GST and making charges.",
+        "verified": false,
+        "source_name": "IBJA benchmark"
+      },
+      {
+        "name": "Gold 916 (22K benchmark)",
+        "symbol": "IBJA 916",
+        "category": "Physical gold · 916 purity",
+        "value": "₹130,720",
+        "unit": "per 10 grams · PM benchmark",
+        "as_of": "2026-10-28",
+        "details": "IBJA PM benchmark; excludes GST and making charges.",
+        "verified": false,
+        "source_name": "IBJA benchmark"
+      },
+      {
+        "name": "Gold 750 (18K benchmark)",
+        "symbol": "IBJA 750",
+        "category": "Physical gold · 750 purity",
+        "value": "₹107,030",
+        "unit": "per 10 grams · PM benchmark",
+        "as_of": "2026-10-28",
+        "details": "IBJA PM benchmark; excludes GST and making charges.",
+        "verified": false,
+        "source_name": "IBJA benchmark"
+      },
+      {
+        "name": "Gold 585 (14K benchmark)",
+        "symbol": "IBJA 585",
+        "category": "Physical gold · 585 purity",
+        "value": "₹83,484",
+        "unit": "per 10 grams · PM benchmark",
+        "as_of": "2026-10-28",
+        "details": "IBJA PM benchmark; excludes GST and making charges.",
+        "verified": false,
+        "source_name": "IBJA benchmark"
+      },
+      {
+        "name": "Gold ETFs",
+        "symbol": "GOLDBEES / GOLDETF / TATAGOLD",
+        "category": "Exchange-traded gold exposure",
+        "value": "Market-linked",
+        "unit": "ETF price and NAV change during market hours",
+        "as_of": "2026-10-28",
+        "details": "ETF units are traded on exchanges; market price can differ from NAV.",
+        "verified": false,
+        "source_name": "Capitalo team (descriptive)",
+        "information_only": true,
+        "link_etf_list": true
+      },
+      {
+        "name": "Sovereign Gold Bonds (legacy series)",
+        "symbol": "SGB",
+        "category": "Government security linked to gold price",
+        "value": "Series-specific",
+        "unit": "Secondary-market price varies by series",
+        "as_of": "2026-10-28",
+        "details": "Availability of new issues is not assumed; outstanding series may trade on exchange.",
+        "verified": false,
+        "source_name": "Capitalo team (descriptive)",
+        "information_only": true
+      }
+    ],
+    "silver": [
+      {
+        "name": "Silver 999 benchmark",
+        "symbol": "IBJA SILVER 999",
+        "category": "Physical silver · 999 purity",
+        "value": "₹193,442",
+        "unit": "per kilogram · PM benchmark",
+        "as_of": "2026-10-28",
+        "details": "IBJA PM benchmark; excludes GST and dealer premiums.",
+        "verified": false,
+        "source_name": "IBJA benchmark"
+      },
+      {
+        "name": "Silver ETFs",
+        "symbol": "SILVERBEES / SILVERIETF / TATSILV",
+        "category": "Exchange-traded silver exposure",
+        "value": "Market-linked",
+        "unit": "ETF price and NAV change during market hours",
+        "as_of": "2026-10-28",
+        "details": "ETF units are traded on exchanges; market price can differ from NAV.",
+        "verified": false,
+        "source_name": "Capitalo team (descriptive)",
+        "information_only": true,
+        "link_etf_list": true
+      },
+      {
+        "name": "Silver futures",
+        "symbol": "MCX SILVER contracts",
+        "category": "Exchange-traded commodity derivative",
+        "value": "Contract-specific",
+        "unit": "Price, expiry and lot size depend on contract",
+        "as_of": "2026-10-28",
+        "details": "Futures are complex and can involve leverage; this catalogue does not provide trading instructions.",
+        "verified": false,
+        "source_name": "Capitalo team (descriptive)",
+        "information_only": true,
+        "hide_calculate": true
+      }
+    ]
+  }
+}

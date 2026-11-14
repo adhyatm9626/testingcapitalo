@@ -1,0 +1,14 @@
+{
+  "name": "capitalo",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "@netlify/blobs": "^11.1.6"
+  },
+  "scripts": {
+    "test": "node --test tests/*.test.js"
+  }
+}

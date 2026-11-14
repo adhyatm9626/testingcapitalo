@@ -1,0 +1,1502 @@
+{
+ "meta": {
+  "as_of": "2026-10-28",
+  "currency": "INR",
+  "unit": "percent per annum",
+  "provenance": "Imported from FD_DATA.xlsx and cross-checked against ReturnX_Capitalo_Theme_new_updated_with_data.html. Both appear to be copied from a third-party commercial listing (Paisabazaar) dated 28 Oct 2026. NOT verified against banks' official pages.",
+  "status": "draft_unverified",
+  "rules": [
+   "Every record starts verified=false.",
+   "Do not show 'verified' on the site until an admin has checked the bank's official page and recorded official_website and verified_on.",
+   "Only tenures 1, 3 and 5 years exist in this data; 'highest' has no tenure attached and must not be used in calculations.",
+   "internal_source_url is for admin eyes only; never link to it from the public site."
+  ],
+  "counts": {
+   "banks": 45,
+   "foreign": 3,
+   "corporate": 8,
+   "post_office_tenures": 4
+  }
+ },
+ "banks": [
+  {
+   "id": "au-small-finance-bank",
+   "name": "AU Small Finance Bank",
+   "group": "bank",
+   "type": "small_finance",
+   "rates": {
+    "highest": 7.4,
+    "y1": 6.35,
+    "y3": 7.4,
+    "y5": 6.75
+   },
+   "senior_extra_pp": {
+    "min": 0.5,
+    "max": 0.5
+   },
+   "tax_saving_5y": {
+    "general": {
+     "min": 6.75,
+     "max": 6.75
+    },
+    "senior": {
+     "min": 7.25,
+     "max": 7.25
+    }
+   },
+   "tenure_note": null,
+   "official_website": null,
+   "internal_source_url": "https://www.paisabazaar.com/fixed-deposit/au-small-finance-bank-fixed-deposit/",
+   "verified": false,
+   "as_of": "2026-10-28"
+  },
+  {
+   "id": "axis-bank",
+   "name": "Axis Bank",
+   "group": "bank",
+   "type": "private",
+   "rates": {
+    "highest": 6.5,
+    "y1": 6.25,
+    "y3": 6.5,
+    "y5": 6.5
+   },
+   "senior_extra_pp": null,
+   "tax_saving_5y": {
+    "general": {
+     "min": 6.45,
+     "max": 6.45
+    },
+    "senior": {
+     "min": 7.2,
+     "max": 7.2
+    }
+   },
+   "tenure_note": null,
+   "official_website": null,
+   "internal_source_url": "https://www.paisabazaar.com/fixed-deposit/axis-bank-fd-rates/",
+   "verified": false,
+   "as_of": "2026-10-28"
+  },
+  {
+   "id": "bandhan-bank",
+   "name": "Bandhan Bank",
+   "group": "bank",
+   "type": "private",
+   "rates": {
+    "highest": 7.45,
+    "y1": 7.0,
+    "y3": 7.25,
+    "y5": 5.85
+   },
+   "senior_extra_pp": {
+    "min": 0.5,
+    "max": 0.75
+   },
+   "tax_saving_5y": {
+    "general": {
+     "min": 6.25,
+     "max": 6.25
+    },
+    "senior": {
+     "min": 7.25,
+     "max": 7.25
+    }
+   },
+   "tenure_note": null,
+   "official_website": null,
+   "internal_source_url": "https://www.paisabazaar.com/bandhan-bank/fixed-deposits/",
+   "verified": false,
+   "as_of": "2026-10-28"
+  },
+  {
+   "id": "bank-of-baroda",
+   "name": "Bank of Baroda",
+   "group": "bank",
+   "type": "public",
+   "rates": {
+    "highest": 6.75,
+    "y1": 6.25,
+    "y3": 6.25,
+    "y5": 6.3
+   },
+   "senior_extra_pp": null,
+   "tax_saving_5y": {
+    "general": {
+     "min": 6.0,
+     "max": 6.3
+    },
+    "senior": {
+     "min": 6.9,
+     "max": 7.0
+    }
+   },
+   "tenure_note": null,
+   "official_website": null,
+   "internal_source_url": "https://www.paisabazaar.com/fixed-deposit/bank-of-baroda-fd-rates/",
+   "verified": false,
+   "as_of": "2026-10-28"
+  },
+  {
+   "id": "bank-of-india",
+   "name": "Bank of India",
+   "group": "bank",
+   "type": "public",
+   "rates": {
+    "highest": 6.85,
+    "y1": 6.5,
+    "y3": 6.7,
+    "y5": 6.0
+   },
+   "senior_extra_pp": {
+    "min": 0.5,
+    "max": 0.5
+   },
+   "tax_saving_5y": {
+    "general": {
+     "min": 6.0,
+     "max": 6.0
+    },
+    "senior": {
+     "min": 6.75,
+     "max": 6.9
+    }
+   },
+   "tenure_note": null,
+   "official_website": null,
+   "internal_source_url": "https://www.paisabazaar.com/fixed-deposit/bank-of-india-fd-rates/",
+   "verified": false,
+   "as_of": "2026-10-28"
+  },
+  {
+   "id": "bank-of-maharashtra",
+   "name": "Bank of Maharashtra",
+   "group": "bank",
+   "type": "public",
+   "rates": {
+    "highest": 6.65,
+    "y1": 6.2,
+    "y3": 5.25,
+    "y5": 5.0
+   },
+   "senior_extra_pp": null,
+   "tax_saving_5y": {
+    "general": {
+     "min": 5.0,
+     "max": 5.0
+    },
+    "senior": {
+     "min": 5.5,
+     "max": 5.5
+    }
+   },
+   "tenure_note": null,
+   "official_website": null,
+   "internal_source_url": "https://www.paisabazaar.com/bank-of-maharashtra/fixed-deposits/",
+   "verified": false,
+   "as_of": "2026-10-28"
+  },
+  {
+   "id": "csb-bank",
+   "name": "CSB Bank",
+   "group": "bank",
+   "type": "private",
+   "rates": {
+    "highest": 7.1,
+    "y1": 5.0,
+    "y3": 5.75,
+    "y5": 5.75
+   },
+   "senior_extra_pp": null,
+   "tax_saving_5y": null,
+   "tenure_note": null,
+   "official_website": null,
+   "internal_source_url": "https://www.paisabazaar.com/fixed-deposit/csb-fd-rates/",
+   "verified": false,
+   "as_of": "2026-10-28"
+  },
+  {
+   "id": "canara-bank",
+   "name": "Canara Bank",
+   "group": "bank",
+   "type": "public",
+   "rates": {
+    "highest": 6.6,
+    "y1": 6.25,
+    "y3": 6.25,
+    "y5": 6.25
+   },
+   "senior_extra_pp": null,
+   "tax_saving_5y": {
+    "general": {
+     "min": 6.25,
+     "max": 6.25
+    },
+    "senior": {
+     "min": 6.75,
+     "max": 6.75
+    }
+   },
+   "tenure_note": null,
+   "official_website": null,
+   "internal_source_url": "https://www.paisabazaar.com/fixed-deposit/canara-bank-fd-rates/",
+   "verified": false,
+   "as_of": "2026-10-28"
+  },
+  {
+   "id": "capital-small-finance-bank",
+   "name": "Capital Small Finance Bank",
+   "group": "bank",
+   "type": "small_finance",
+   "rates": {
+    "highest": 7.15,
+    "y1": 7.0,
+    "y3": 7.0,
+    "y5": 6.9
+   },
+   "senior_extra_pp": {
+    "min": 0.5,
+    "max": 0.5
+   },
+   "tax_saving_5y": {
+    "general": {
+     "min": 6.8,
+     "max": 6.8
+    },
+    "senior": {
+     "min": 7.3,
+     "max": 7.3
+    }
+   },
+   "tenure_note": null,
+   "official_website": null,
+   "internal_source_url": "https://www.paisabazaar.com/fixed-deposit/capital-small-finance-bank-fd-interest-rates/",
+   "verified": false,
+   "as_of": "2026-10-28"
+  },
+  {
+   "id": "central-bank-of-india",
+   "name": "Central Bank of India",
+   "group": "bank",
+   "type": "public",
+   "rates": {
+    "highest": 6.75,
+    "y1": 6.1,
+    "y3": 6.0,
+    "y5": 6.0
+   },
+   "senior_extra_pp": {
+    "min": 0.5,
+    "max": 0.5
+   },
+   "tax_saving_5y": {
+    "general": {
+     "min": 6.0,
+     "max": 6.0
+    },
+    "senior": {
+     "min": 6.5,
+     "max": 6.5
+    }
+   },
+   "tenure_note": null,
+   "official_website": null,
+   "internal_source_url": "https://www.paisabazaar.com/central-bank-of-india/fixed-deposits/",
+   "verified": false,
+   "as_of": "2026-10-28"
+  },
+  {
+   "id": "city-union-bank",
+   "name": "City Union Bank",
+   "group": "bank",
+   "type": "private",
+   "rates": {
+    "highest": 7.3,
+    "y1": 6.65,
+    "y3": 7.3,
+    "y5": 6.55
+   },
+   "senior_extra_pp": null,
+   "tax_saving_5y": null,
+   "tenure_note": null,
+   "official_website": null,
+   "internal_source_url": "https://www.paisabazaar.com/city-union-bank/fixed-deposits/",
+   "verified": false,
+   "as_of": "2026-10-28"
+  },
+  {
+   "id": "dbs-bank",
+   "name": "DBS Bank",
+   "group": "bank",
+   "type": "private",
+   "rates": {
+    "highest": 6.5,
+    "y1": 6.25,
+    "y3": 6.5,
+    "y5": 6.25
+   },
+   "senior_extra_pp": null,
+   "tax_saving_5y": null,
+   "tenure_note": null,
+   "official_website": null,
+   "internal_source_url": "https://www.paisabazaar.com/dbs-bank/fixed-deposits/",
+   "verified": false,
+   "as_of": "2026-10-28"
+  },
+  {
+   "id": "dcb-bank",
+   "name": "DCB Bank",
+   "group": "bank",
+   "type": "private",
+   "rates": {
+    "highest": 7.5,
+    "y1": 6.9,
+    "y3": 7.0,
+    "y5": 7.5
+   },
+   "senior_extra_pp": {
+    "min": 0.25,
+    "max": 0.5
+   },
+   "tax_saving_5y": {
+    "general": {
+     "min": 7.5,
+     "max": 7.5
+    },
+    "senior": {
+     "min": 7.75,
+     "max": 7.75
+    }
+   },
+   "tenure_note": null,
+   "official_website": null,
+   "internal_source_url": "https://www.paisabazaar.com/dcb-bank/fixed-deposits/",
+   "verified": false,
+   "as_of": "2026-10-28"
+  },
+  {
+   "id": "dhanlaxmi-bank",
+   "name": "Dhanlaxmi Bank",
+   "group": "bank",
+   "type": "private",
+   "rates": {
+    "highest": 7.25,
+    "y1": 6.25,
+    "y3": 6.5,
+    "y5": 6.5
+   },
+   "senior_extra_pp": null,
+   "tax_saving_5y": null,
+   "tenure_note": null,
+   "official_website": null,
+   "internal_source_url": "https://www.paisabazaar.com/dhanlaxmi-bank/fixed-deposits/",
+   "verified": false,
+   "as_of": "2026-10-28"
+  },
+  {
+   "id": "esaf-small-finance-bank",
+   "name": "ESAF Small Finance Bank",
+   "group": "bank",
+   "type": "small_finance",
+   "rates": {
+    "highest": 8.0,
+    "y1": 6.0,
+    "y3": 6.0,
+    "y5": 5.75
+   },
+   "senior_extra_pp": {
+    "min": 0.5,
+    "max": 0.5
+   },
+   "tax_saving_5y": null,
+   "tenure_note": null,
+   "official_website": null,
+   "internal_source_url": "https://www.paisabazaar.com/fixed-deposit/esaf-small-finance-bank-fixed-deposit/",
+   "verified": false,
+   "as_of": "2026-10-28"
+  },
+  {
+   "id": "equitas-small-finance-bank",
+   "name": "Equitas Small Finance Bank",
+   "group": "bank",
+   "type": "small_finance",
+   "rates": {
+    "highest": 8.0,
+    "y1": 7.1,
+    "y3": 7.1,
+    "y5": 7.0
+   },
+   "senior_extra_pp": {
+    "min": 0.5,
+    "max": 0.5
+   },
+   "tax_saving_5y": null,
+   "tenure_note": null,
+   "official_website": null,
+   "internal_source_url": "https://www.paisabazaar.com/equitas-small-finance-bank/fixed-deposits/",
+   "verified": false,
+   "as_of": "2026-10-28"
+  },
+  {
+   "id": "federal-bank",
+   "name": "Federal Bank",
+   "group": "bank",
+   "type": "private",
+   "rates": {
+    "highest": 6.7,
+    "y1": 6.25,
+    "y3": 6.5,
+    "y5": 6.4
+   },
+   "senior_extra_pp": {
+    "min": 0.5,
+    "max": 0.5
+   },
+   "tax_saving_5y": {
+    "general": {
+     "min": 6.4,
+     "max": 6.4
+    },
+    "senior": {
+     "min": 6.9,
+     "max": 6.9
+    }
+   },
+   "tenure_note": null,
+   "official_website": null,
+   "internal_source_url": "https://www.paisabazaar.com/federal-bank/fixed-deposits/",
+   "verified": false,
+   "as_of": "2026-10-28"
+  },
+  {
+   "id": "hdfc-bank",
+   "name": "HDFC Bank",
+   "group": "bank",
+   "type": "private",
+   "rates": {
+    "highest": 6.5,
+    "y1": 6.25,
+    "y3": 6.45,
+    "y5": 6.4
+   },
+   "senior_extra_pp": null,
+   "tax_saving_5y": {
+    "general": {
+     "min": 6.4,
+     "max": 6.4
+    },
+    "senior": {
+     "min": 6.9,
+     "max": 6.9
+    }
+   },
+   "tenure_note": null,
+   "official_website": null,
+   "internal_source_url": "https://www.paisabazaar.com/fixed-deposit/hdfc-fd-rates/",
+   "verified": false,
+   "as_of": "2026-10-28"
+  },
+  {
+   "id": "icici-bank",
+   "name": "ICICI Bank",
+   "group": "bank",
+   "type": "private",
+   "rates": {
+    "highest": 6.6,
+    "y1": 6.25,
+    "y3": 6.55,
+    "y5": 6.6
+   },
+   "senior_extra_pp": null,
+   "tax_saving_5y": {
+    "general": {
+     "min": 6.5,
+     "max": 6.5
+    },
+    "senior": {
+     "min": 7.1,
+     "max": 7.1
+    }
+   },
+   "tenure_note": null,
+   "official_website": null,
+   "internal_source_url": "https://www.paisabazaar.com/fixed-deposit/icici-bank-fd-rates/",
+   "verified": false,
+   "as_of": "2026-10-28"
+  },
+  {
+   "id": "idbi-bank",
+   "name": "IDBI Bank",
+   "group": "bank",
+   "type": "private",
+   "rates": {
+    "highest": 6.55,
+    "y1": 6.2,
+    "y3": 6.35,
+    "y5": 6.25
+   },
+   "senior_extra_pp": null,
+   "tax_saving_5y": {
+    "general": {
+     "min": 6.25,
+     "max": 6.25
+    },
+    "senior": {
+     "min": 6.75,
+     "max": 6.75
+    }
+   },
+   "tenure_note": null,
+   "official_website": null,
+   "internal_source_url": "https://www.paisabazaar.com/idbi-bank/fixed-deposits/",
+   "verified": false,
+   "as_of": "2026-10-28"
+  },
+  {
+   "id": "idfc-first-bank",
+   "name": "IDFC FIRST Bank",
+   "group": "bank",
+   "type": "private",
+   "rates": {
+    "highest": 7.1,
+    "y1": 6.5,
+    "y3": 7.1,
+    "y5": 6.75
+   },
+   "senior_extra_pp": null,
+   "tax_saving_5y": {
+    "general": {
+     "min": 6.6,
+     "max": 6.6
+    },
+    "senior": {
+     "min": 7.1,
+     "max": 7.1
+    }
+   },
+   "tenure_note": null,
+   "official_website": null,
+   "internal_source_url": "https://www.paisabazaar.com/idfc-bank/fixed-deposits/",
+   "verified": false,
+   "as_of": "2026-10-28"
+  },
+  {
+   "id": "indian-bank",
+   "name": "Indian Bank",
+   "group": "bank",
+   "type": "public",
+   "rates": {
+    "highest": 6.8,
+    "y1": 6.1,
+    "y3": 6.05,
+    "y5": 6.0
+   },
+   "senior_extra_pp": null,
+   "tax_saving_5y": {
+    "general": {
+     "min": 6.0,
+     "max": 6.0
+    },
+    "senior": {
+     "min": 6.5,
+     "max": 6.5
+    }
+   },
+   "tenure_note": null,
+   "official_website": null,
+   "internal_source_url": "https://www.paisabazaar.com/indian-bank/fixed-deposits/",
+   "verified": false,
+   "as_of": "2026-10-28"
+  },
+  {
+   "id": "indian-overseas-bank",
+   "name": "Indian Overseas Bank",
+   "group": "bank",
+   "type": "public",
+   "rates": {
+    "highest": 6.6,
+    "y1": 6.5,
+    "y3": 6.1,
+    "y5": 6.1
+   },
+   "senior_extra_pp": null,
+   "tax_saving_5y": {
+    "general": {
+     "min": 6.1,
+     "max": 6.1
+    },
+    "senior": {
+     "min": 6.6,
+     "max": 6.6
+    }
+   },
+   "tenure_note": null,
+   "official_website": null,
+   "internal_source_url": "https://www.paisabazaar.com/indian-overseas-bank/fixed-deposits/",
+   "verified": false,
+   "as_of": "2026-10-28"
+  },
+  {
+   "id": "indusind-bank",
+   "name": "IndusInd Bank",
+   "group": "bank",
+   "type": "private",
+   "rates": {
+    "highest": 7.0,
+    "y1": 6.75,
+    "y3": 7.0,
+    "y5": 6.65
+   },
+   "senior_extra_pp": {
+    "min": 0.5,
+    "max": 0.5
+   },
+   "tax_saving_5y": {
+    "general": {
+     "min": 6.65,
+     "max": 6.65
+    },
+    "senior": {
+     "min": 7.15,
+     "max": 7.15
+    }
+   },
+   "tenure_note": null,
+   "official_website": null,
+   "internal_source_url": "https://www.paisabazaar.com/indusind-bank/fixed-deposits/",
+   "verified": false,
+   "as_of": "2026-10-28"
+  },
+  {
+   "id": "jammu-kashmir-bank",
+   "name": "Jammu & Kashmir Bank",
+   "group": "bank",
+   "type": "private",
+   "rates": {
+    "highest": 6.75,
+    "y1": 6.55,
+    "y3": 6.7,
+    "y5": 6.75
+   },
+   "senior_extra_pp": null,
+   "tax_saving_5y": {
+    "general": {
+     "min": 6.6,
+     "max": 6.6
+    },
+    "senior": {
+     "min": 7.1,
+     "max": 7.1
+    }
+   },
+   "tenure_note": null,
+   "official_website": null,
+   "internal_source_url": "https://www.paisabazaar.com/jammu-kashmir-bank/fixed-deposits/",
+   "verified": false,
+   "as_of": "2026-10-28"
+  },
+  {
+   "id": "jana-small-finance-bank",
+   "name": "Jana Small Finance Bank",
+   "group": "bank",
+   "type": "small_finance",
+   "rates": {
+    "highest": 8.0,
+    "y1": 7.0,
+    "y3": 8.0,
+    "y5": 7.77
+   },
+   "senior_extra_pp": {
+    "min": 0.5,
+    "max": 0.5
+   },
+   "tax_saving_5y": {
+    "general": {
+     "min": 7.77,
+     "max": 7.77
+    },
+    "senior": {
+     "min": 8.0,
+     "max": 8.0
+    }
+   },
+   "tenure_note": null,
+   "official_website": null,
+   "internal_source_url": "https://www.paisabazaar.com/jana-bank/fixed-deposits/",
+   "verified": false,
+   "as_of": "2026-10-28"
+  },
+  {
+   "id": "karnataka-bank",
+   "name": "Karnataka Bank",
+   "group": "bank",
+   "type": "private",
+   "rates": {
+    "highest": 7.0,
+    "y1": 6.5,
+    "y3": 6.15,
+    "y5": 6.15
+   },
+   "senior_extra_pp": null,
+   "tax_saving_5y": {
+    "general": {
+     "min": 6.5,
+     "max": 6.5
+    },
+    "senior": {
+     "min": 6.9,
+     "max": 6.9
+    }
+   },
+   "tenure_note": null,
+   "official_website": null,
+   "internal_source_url": "https://www.paisabazaar.com/karnataka-bank/fixed-deposits/",
+   "verified": false,
+   "as_of": "2026-10-28"
+  },
+  {
+   "id": "karur-vysya-bank",
+   "name": "Karur Vysya Bank",
+   "group": "bank",
+   "type": "private",
+   "rates": {
+    "highest": 6.7,
+    "y1": 6.25,
+    "y3": 6.4,
+    "y5": 6.25
+   },
+   "senior_extra_pp": null,
+   "tax_saving_5y": {
+    "general": {
+     "min": 6.55,
+     "max": 6.55
+    },
+    "senior": {
+     "min": 6.95,
+     "max": 6.95
+    }
+   },
+   "tenure_note": null,
+   "official_website": null,
+   "internal_source_url": "https://www.paisabazaar.com/karur-vysya-bank/fixed-deposits/",
+   "verified": false,
+   "as_of": "2026-10-28"
+  },
+  {
+   "id": "kotak-mahindra-bank",
+   "name": "Kotak Mahindra Bank",
+   "group": "bank",
+   "type": "private",
+   "rates": {
+    "highest": 6.75,
+    "y1": 6.45,
+    "y3": 6.4,
+    "y5": 6.25
+   },
+   "senior_extra_pp": null,
+   "tax_saving_5y": {
+    "general": {
+     "min": 6.25,
+     "max": 6.25
+    },
+    "senior": {
+     "min": 6.75,
+     "max": 6.75
+    }
+   },
+   "tenure_note": null,
+   "official_website": null,
+   "internal_source_url": "https://www.paisabazaar.com/fixed-deposit/kotak-mahindra-bank-fd-rates/",
+   "verified": false,
+   "as_of": "2026-10-28"
+  },
+  {
+   "id": "nainital-bank",
+   "name": "Nainital Bank",
+   "group": "bank",
+   "type": "private",
+   "rates": {
+    "highest": 6.6,
+    "y1": 6.4,
+    "y3": 6.25,
+    "y5": 5.75
+   },
+   "senior_extra_pp": null,
+   "tax_saving_5y": null,
+   "tenure_note": null,
+   "official_website": null,
+   "internal_source_url": "https://www.paisabazaar.com/fixed-deposit/nainital-bank-fd-rates/",
+   "verified": false,
+   "as_of": "2026-10-28"
+  },
+  {
+   "id": "punjab-sind-bank",
+   "name": "Punjab & Sind Bank",
+   "group": "bank",
+   "type": "public",
+   "rates": {
+    "highest": 6.85,
+    "y1": 5.85,
+    "y3": 5.85,
+    "y5": 5.95
+   },
+   "senior_extra_pp": null,
+   "tax_saving_5y": {
+    "general": {
+     "min": 5.95,
+     "max": 5.95
+    },
+    "senior": {
+     "min": 6.45,
+     "max": 6.45
+    }
+   },
+   "tenure_note": null,
+   "official_website": null,
+   "internal_source_url": "https://www.paisabazaar.com/fixed-deposit/punjab-and-sind-fd-rates/",
+   "verified": false,
+   "as_of": "2026-10-28"
+  },
+  {
+   "id": "punjab-national-bank",
+   "name": "Punjab National Bank",
+   "group": "bank",
+   "type": "public",
+   "rates": {
+    "highest": 6.6,
+    "y1": 6.25,
+    "y3": 6.35,
+    "y5": 6.1
+   },
+   "senior_extra_pp": null,
+   "tax_saving_5y": null,
+   "tenure_note": null,
+   "official_website": null,
+   "internal_source_url": "https://www.paisabazaar.com/fixed-deposit/pnb-fd-rates/",
+   "verified": false,
+   "as_of": "2026-10-28"
+  },
+  {
+   "id": "rbl-bank",
+   "name": "RBL Bank",
+   "group": "bank",
+   "type": "private",
+   "rates": {
+    "highest": 7.0,
+    "y1": 6.9,
+    "y3": 7.0,
+    "y5": 6.7
+   },
+   "senior_extra_pp": {
+    "min": 0.5,
+    "max": 0.5
+   },
+   "tax_saving_5y": {
+    "general": {
+     "min": 6.7,
+     "max": 6.7
+    },
+    "senior": {
+     "min": 7.2,
+     "max": 7.2
+    }
+   },
+   "tenure_note": null,
+   "official_website": null,
+   "internal_source_url": "https://www.paisabazaar.com/rbl-bank/fixed-deposits/",
+   "verified": false,
+   "as_of": "2026-10-28"
+  },
+  {
+   "id": "sbm-bank",
+   "name": "SBM Bank",
+   "group": "bank",
+   "type": "private",
+   "rates": {
+    "highest": 7.3,
+    "y1": 7.1,
+    "y3": 7.1,
+    "y5": 7.0
+   },
+   "senior_extra_pp": {
+    "min": 0.5,
+    "max": 0.5
+   },
+   "tax_saving_5y": {
+    "general": {
+     "min": 7.0,
+     "max": 7.0
+    },
+    "senior": {
+     "min": 7.5,
+     "max": 7.5
+    }
+   },
+   "tenure_note": null,
+   "official_website": null,
+   "internal_source_url": "https://www.paisabazaar.com/sbm-bank/fixed-deposits/",
+   "verified": false,
+   "as_of": "2026-10-28"
+  },
+  {
+   "id": "shivalik-small-finance-bank",
+   "name": "Shivalik Small Finance Bank",
+   "group": "bank",
+   "type": "small_finance",
+   "rates": {
+    "highest": 8.0,
+    "y1": 6.0,
+    "y3": 7.5,
+    "y5": 6.25
+   },
+   "senior_extra_pp": {
+    "min": 0.5,
+    "max": 0.5
+   },
+   "tax_saving_5y": {
+    "general": {
+     "min": 6.25,
+     "max": 6.25
+    },
+    "senior": {
+     "min": 6.5,
+     "max": 6.5
+    }
+   },
+   "tenure_note": null,
+   "official_website": null,
+   "internal_source_url": "https://www.paisabazaar.com/fixed-deposit/shivalik-small-finance-bank-fd-rates/",
+   "verified": false,
+   "as_of": "2026-10-28"
+  },
+  {
+   "id": "south-indian-bank",
+   "name": "South Indian Bank",
+   "group": "bank",
+   "type": "private",
+   "rates": {
+    "highest": 6.8,
+    "y1": 6.35,
+    "y3": 6.2,
+    "y5": 5.7
+   },
+   "senior_extra_pp": null,
+   "tax_saving_5y": {
+    "general": {
+     "min": 5.7,
+     "max": 5.7
+    },
+    "senior": {
+     "min": 6.2,
+     "max": 6.2
+    }
+   },
+   "tenure_note": null,
+   "official_website": null,
+   "internal_source_url": "https://www.paisabazaar.com/south-indian-bank/fixed-deposits/",
+   "verified": false,
+   "as_of": "2026-10-28"
+  },
+  {
+   "id": "state-bank-of-india",
+   "name": "State Bank of India",
+   "group": "bank",
+   "type": "public",
+   "rates": {
+    "highest": 6.45,
+    "y1": 6.25,
+    "y3": 6.3,
+    "y5": 6.05
+   },
+   "senior_extra_pp": null,
+   "tax_saving_5y": {
+    "general": {
+     "min": 6.05,
+     "max": 6.05
+    },
+    "senior": {
+     "min": 7.05,
+     "max": 7.05
+    }
+   },
+   "tenure_note": null,
+   "official_website": null,
+   "internal_source_url": "https://www.paisabazaar.com/fixed-deposit/sbi-fd-rates/",
+   "verified": false,
+   "as_of": "2026-10-28"
+  },
+  {
+   "id": "suryoday-small-finance-bank",
+   "name": "Suryoday Small Finance Bank",
+   "group": "bank",
+   "type": "small_finance",
+   "rates": {
+    "highest": 8.25,
+    "y1": 7.25,
+    "y3": 7.25,
+    "y5": 8.25
+   },
+   "senior_extra_pp": {
+    "min": 0.15,
+    "max": 0.15
+   },
+   "tax_saving_5y": {
+    "general": {
+     "min": 8.25,
+     "max": 8.25
+    },
+    "senior": {
+     "min": 8.5,
+     "max": 8.5
+    }
+   },
+   "tenure_note": null,
+   "official_website": null,
+   "internal_source_url": "https://www.paisabazaar.com/suryoday-bank/fixed-deposits/",
+   "verified": false,
+   "as_of": "2026-10-28"
+  },
+  {
+   "id": "tamilnad-mercantile-bank",
+   "name": "Tamilnad Mercantile Bank",
+   "group": "bank",
+   "type": "private",
+   "rates": {
+    "highest": 7.25,
+    "y1": 6.8,
+    "y3": 6.7,
+    "y5": 6.7
+   },
+   "senior_extra_pp": null,
+   "tax_saving_5y": null,
+   "tenure_note": null,
+   "official_website": null,
+   "internal_source_url": "https://www.paisabazaar.com/tamilnad-mercantile-bank/fixed-deposits/",
+   "verified": false,
+   "as_of": "2026-10-28"
+  },
+  {
+   "id": "uco-bank",
+   "name": "UCO Bank",
+   "group": "bank",
+   "type": "public",
+   "rates": {
+    "highest": 6.45,
+    "y1": 6.1,
+    "y3": 6.0,
+    "y5": 6.0
+   },
+   "senior_extra_pp": null,
+   "tax_saving_5y": {
+    "general": {
+     "min": 6.0,
+     "max": 6.0
+    },
+    "senior": {
+     "min": 6.5,
+     "max": 6.5
+    }
+   },
+   "tenure_note": null,
+   "official_website": null,
+   "internal_source_url": "https://www.paisabazaar.com/uco-bank/fixed-deposits/",
+   "verified": false,
+   "as_of": "2026-10-28"
+  },
+  {
+   "id": "ujjivan-small-finance-bank",
+   "name": "Ujjivan Small Finance Bank",
+   "group": "bank",
+   "type": "small_finance",
+   "rates": {
+    "highest": 8.1,
+    "y1": 7.25,
+    "y3": 7.25,
+    "y5": 7.2
+   },
+   "senior_extra_pp": {
+    "min": 0.5,
+    "max": 0.5
+   },
+   "tax_saving_5y": {
+    "general": {
+     "min": 7.2,
+     "max": 7.2
+    },
+    "senior": {
+     "min": 7.7,
+     "max": 7.7
+    }
+   },
+   "tenure_note": null,
+   "official_website": null,
+   "internal_source_url": "https://www.paisabazaar.com/fixed-deposit/ujjivan-small-finance-bank-fixed-deposit/",
+   "verified": false,
+   "as_of": "2026-10-28"
+  },
+  {
+   "id": "union-bank-of-india",
+   "name": "Union Bank of India",
+   "group": "bank",
+   "type": "public",
+   "rates": {
+    "highest": 6.55,
+    "y1": 6.2,
+    "y3": 6.1,
+    "y5": 6.0
+   },
+   "senior_extra_pp": null,
+   "tax_saving_5y": {
+    "general": {
+     "min": 5.9,
+     "max": 5.9
+    },
+    "senior": {
+     "min": 6.4,
+     "max": 6.4
+    }
+   },
+   "tenure_note": null,
+   "official_website": null,
+   "internal_source_url": "https://www.paisabazaar.com/union-bank-of-india/fixed-deposits/",
+   "verified": false,
+   "as_of": "2026-10-28"
+  },
+  {
+   "id": "unity-small-finance-bank",
+   "name": "Unity Small Finance Bank",
+   "group": "bank",
+   "type": "small_finance",
+   "rates": {
+    "highest": 7.5,
+    "y1": 7.5,
+    "y3": 6.75,
+    "y5": 6.75
+   },
+   "senior_extra_pp": {
+    "min": 0.5,
+    "max": 0.5
+   },
+   "tax_saving_5y": null,
+   "tenure_note": null,
+   "official_website": null,
+   "internal_source_url": "https://www.paisabazaar.com/fixed-deposit/unity-small-finance-bank-fd-rates/",
+   "verified": false,
+   "as_of": "2026-10-28"
+  },
+  {
+   "id": "utkarsh-small-finance-bank",
+   "name": "Utkarsh Small Finance Bank",
+   "group": "bank",
+   "type": "small_finance",
+   "rates": {
+    "highest": 8.1,
+    "y1": 6.0,
+    "y3": 7.5,
+    "y5": 7.0
+   },
+   "senior_extra_pp": {
+    "min": 0.5,
+    "max": 0.5
+   },
+   "tax_saving_5y": {
+    "general": {
+     "min": 7.0,
+     "max": 7.0
+    },
+    "senior": {
+     "min": 7.5,
+     "max": 7.5
+    }
+   },
+   "tenure_note": null,
+   "official_website": null,
+   "internal_source_url": "https://www.paisabazaar.com/utkarsh-bank/fixed-deposits/",
+   "verified": false,
+   "as_of": "2026-10-28"
+  },
+  {
+   "id": "yes-bank",
+   "name": "YES Bank",
+   "group": "bank",
+   "type": "private",
+   "rates": {
+    "highest": 7.25,
+    "y1": 6.65,
+    "y3": 7.0,
+    "y5": 6.75
+   },
+   "senior_extra_pp": {
+    "min": 0.5,
+    "max": 0.75
+   },
+   "tax_saving_5y": null,
+   "tenure_note": null,
+   "official_website": null,
+   "internal_source_url": "https://www.paisabazaar.com/yes-bank/fixed-deposits/",
+   "verified": false,
+   "as_of": "2026-10-28"
+  }
+ ],
+ "foreign_banks": [
+  {
+   "id": "deutsche-bank",
+   "name": "Deutsche Bank",
+   "group": "foreign",
+   "type": "foreign",
+   "rates": {
+    "highest": 7.0,
+    "y1": 5.0,
+    "y3": 6.25,
+    "y5": 6.25
+   },
+   "senior_extra_pp": null,
+   "tax_saving_5y": null,
+   "tenure_note": null,
+   "official_website": null,
+   "internal_source_url": "https://www.paisabazaar.com/deutsche-bank/fixed-deposit/",
+   "verified": false,
+   "as_of": "2026-10-28"
+  },
+  {
+   "id": "hsbc-bank",
+   "name": "HSBC Bank",
+   "group": "foreign",
+   "type": "foreign",
+   "rates": {
+    "highest": 5.5,
+    "y1": 4.0,
+    "y3": 5.35,
+    "y5": 5.5
+   },
+   "senior_extra_pp": null,
+   "tax_saving_5y": null,
+   "tenure_note": null,
+   "official_website": null,
+   "internal_source_url": "https://www.paisabazaar.com/hsbc-bank/fixed-deposits/",
+   "verified": false,
+   "as_of": "2026-10-28"
+  },
+  {
+   "id": "standard-chartered-bank",
+   "name": "Standard Chartered Bank",
+   "group": "foreign",
+   "type": "foreign",
+   "rates": {
+    "highest": 6.6,
+    "y1": 6.6,
+    "y3": 6.5,
+    "y5": 6.25
+   },
+   "senior_extra_pp": null,
+   "tax_saving_5y": null,
+   "tenure_note": null,
+   "official_website": null,
+   "internal_source_url": "https://www.paisabazaar.com/standard-chartered-bank/fixed-deposits/",
+   "verified": false,
+   "as_of": "2026-10-28"
+  }
+ ],
+ "corporate_fds": [
+  {
+   "id": "manipal-housing-finance-syndicate",
+   "name": "Manipal Housing Finance Syndicate",
+   "group": "corporate",
+   "type": "corporate",
+   "rates": {
+    "highest": 8.0,
+    "y1": 8.0,
+    "y3": 8.0,
+    "y5": 7.5
+   },
+   "senior_extra_pp": {
+    "min": 0.5,
+    "max": 0.5
+   },
+   "tenure_note": "1 year; 2 years; 3 years",
+   "tax_saving_5y": null,
+   "official_website": null,
+   "internal_source_url": "https://www.paisabazaar.com/fixed-deposit/manipal-housing-finance-fd-rates/",
+   "verified": false,
+   "as_of": "2026-10-28"
+  },
+  {
+   "id": "muthoot-capital-services",
+   "name": "Muthoot Capital Services",
+   "group": "corporate",
+   "type": "corporate",
+   "rates": {
+    "highest": 8.95,
+    "y1": 7.9,
+    "y3": 8.95,
+    "y5": 8.5
+   },
+   "senior_extra_pp": {
+    "min": 0.25,
+    "max": 0.25
+   },
+   "tenure_note": "36 months",
+   "tax_saving_5y": null,
+   "official_website": null,
+   "internal_source_url": "https://www.paisabazaar.com/fixed-deposit/muthoot-capital-fixed-deposit-rates/",
+   "verified": false,
+   "as_of": "2026-10-28"
+  },
+  {
+   "id": "mahindra-finance",
+   "name": "Mahindra Finance",
+   "group": "corporate",
+   "type": "corporate",
+   "rates": {
+    "highest": 7.45,
+    "y1": 6.6,
+    "y3": 7.4,
+    "y5": 7.45
+   },
+   "senior_extra_pp": {
+    "min": 0.2,
+    "max": 0.35
+   },
+   "tenure_note": "48 months to 60 months",
+   "tax_saving_5y": null,
+   "official_website": null,
+   "internal_source_url": "https://www.paisabazaar.com/fixed-deposit/mahindra-finance-fixed-deposit/",
+   "verified": false,
+   "as_of": "2026-10-28"
+  },
+  {
+   "id": "shriram-finance",
+   "name": "Shriram Finance",
+   "group": "corporate",
+   "type": "corporate",
+   "rates": {
+    "highest": 7.85,
+    "y1": 7.0,
+    "y3": 7.85,
+    "y5": 7.85
+   },
+   "senior_extra_pp": {
+    "min": 0.5,
+    "max": 0.5
+   },
+   "tenure_note": "3 years to 5 years",
+   "tax_saving_5y": null,
+   "official_website": null,
+   "internal_source_url": "https://www.paisabazaar.com/fixed-deposit/shriram-city-union-finance-fd-rates/",
+   "verified": false,
+   "as_of": "2026-10-28"
+  },
+  {
+   "id": "icici-home-finance",
+   "name": "ICICI Home Finance",
+   "group": "corporate",
+   "type": "corporate",
+   "rates": {
+    "highest": 7.35,
+    "y1": 7.05,
+    "y3": 7.2,
+    "y5": 7.3
+   },
+   "senior_extra_pp": {
+    "min": 0.35,
+    "max": 0.35
+   },
+   "tenure_note": "27 months",
+   "tax_saving_5y": null,
+   "official_website": null,
+   "internal_source_url": "https://www.paisabazaar.com/fixed-deposit/icicihfc-fd-rates/",
+   "verified": false,
+   "as_of": "2026-10-28"
+  },
+  {
+   "id": "sundaram-home-finance",
+   "name": "Sundaram Home Finance",
+   "group": "corporate",
+   "type": "corporate",
+   "rates": {
+    "highest": 7.65,
+    "y1": 7.0,
+    "y3": 7.5,
+    "y5": 7.65
+   },
+   "senior_extra_pp": {
+    "min": 0.35,
+    "max": 0.5
+   },
+   "tenure_note": "4 years; 5 years",
+   "tax_saving_5y": null,
+   "official_website": null,
+   "internal_source_url": "https://www.paisabazaar.com/fixed-deposit/sundaram-home-finance-fd-rates/",
+   "verified": false,
+   "as_of": "2026-10-28"
+  },
+  {
+   "id": "pnb-housing-finance",
+   "name": "PNB Housing Finance",
+   "group": "corporate",
+   "type": "corporate",
+   "rates": {
+    "highest": 7.4,
+    "y1": 6.8,
+    "y3": 7.25,
+    "y5": 7.4
+   },
+   "senior_extra_pp": {
+    "min": 0.25,
+    "max": 0.25
+   },
+   "tenure_note": "60 months",
+   "tax_saving_5y": null,
+   "official_website": null,
+   "internal_source_url": "https://www.paisabazaar.com/pnb-housing/fixed-deposits/",
+   "verified": false,
+   "as_of": "2026-10-28"
+  },
+  {
+   "id": "lic-housing-finance",
+   "name": "LIC Housing Finance",
+   "group": "corporate",
+   "type": "corporate",
+   "rates": {
+    "highest": 7.35,
+    "y1": 6.7,
+    "y3": 7.2,
+    "y5": 7.35
+   },
+   "senior_extra_pp": {
+    "min": 0.25,
+    "max": 0.25
+   },
+   "tenure_note": "5 years",
+   "tax_saving_5y": null,
+   "official_website": null,
+   "internal_source_url": "https://www.paisabazaar.com/lic-housing-finance/fixed-deposits/",
+   "verified": false,
+   "as_of": "2026-10-28"
+  }
+ ],
+ "post_office_td": {
+  "as_of": "2026-10-28",
+  "valid_until": "2026-12",
+  "note": "Sheet says rates are effective till December 2026. Government small-savings rates are notified periodically; verify before use.",
+  "tenures": [
+   {
+    "years": 1,
+    "rate": 6.9
+   },
+   {
+    "years": 2,
+    "rate": 7.0
+   },
+   {
+    "years": 3,
+    "rate": 7.1
+   },
+   {
+    "years": 5,
+    "rate": 7.5
+   }
+  ],
+  "verified": false
+ }
+}
